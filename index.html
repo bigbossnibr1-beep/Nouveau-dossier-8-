@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet Frontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenue sur mon site</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="accueil" class="hero">
+                <h2>Découvrez notre projet</h2>
+                <p>Ceci est un exemple de site web statique déployé sur Vercel</p>
+                <button id="ctaButton">Cliquez ici</button>
+            </section>
+
+            <section id="apropos">
+                <h2>À propos</h2>
+                <p>Ce projet démontre les bases du développement frontend avec HTML, CSS et JavaScript.</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                    <input type="email" id="email" placeholder="Votre email" required>
+                    <textarea id="message" placeholder="Votre message" required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Mon Projet Frontend. Tous droits réservés.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
